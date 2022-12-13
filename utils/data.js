@@ -1,6 +1,6 @@
-
+import bcrypt from 'bcryptjs'; 
 const data = {
-  /* users: [
+  users: [
     {
       name: 'John',
       email: 'admin@example.com',
@@ -14,7 +14,7 @@ const data = {
       isAdmin: false,
     },
   ],
- */  products: [
+  products: [
     {
       name: 'Free Shirt',
       slug: 'free-shirt',
